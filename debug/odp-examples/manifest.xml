@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecodp:manifest xmlns:ecodp="http://data.europa.eu/88u/ontology/dcatapop#"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://data.europa.eu/euodp/ontologies/ec-odp# http://data.europa.eu/euodp/ontologies/protocol-v4.0/odp-protocol-v4.0.xsd"
+                ecodp:version="2.0"
+                ecodp:package-id=""
+                ecodp:creation-date-time="2019-05-16"
+                ecodp:publisher="http://publications.europa.eu/resource/authority/corporate-body/PUBL"
+                ecodp:priority="normal">
+
+    
+        <ecodp:action ecodp:id="add0"
+                      ecodp:object-uri="http://data.europa.eu/88u/dataset/corporate-body"
+                      ecodp:object-type="dataset"
+                      ecodp:object-ckan-name="corporate-body">
+
+            
+
+            <ecodp:add-replace ecodp:object-status="published" ecodp:package-path="/datasets/corporate-body.rdf"/>
+        </ecodp:action>
+    
+        <ecodp:action ecodp:id="add1"
+                      ecodp:object-uri="http://data.europa.eu/88u/dataset/corporate-body-classification"
+                      ecodp:object-type="dataset"
+                      ecodp:object-ckan-name="corporate-body-classification">
+
+            
+
+            <ecodp:add-replace ecodp:object-status="published" ecodp:package-path="/datasets/corporate-body-classification.rdf"/>
+        </ecodp:action>
+    
+
+    
+
+    
+
+</ecodp:manifest>

@@ -1,0 +1,299 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://publications.europa.eu/ontology/cdm#> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.05>	rdf:type	ns1:manifestation_distribution .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix ns3:	<http://publications.europa.eu/resource/distribution/corporate-body-classification/rdf/> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.05>	owl:sameAs	ns3:skos_ap_act .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.05>	ns1:manifestation_date_publication	"2018-09-26"^^xsd:date ;
+	ns1:manifestation_manifests_expression	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001> ;
+	ns1:manifestation_type	"SKOS_AP_ACT"^^xsd:string .
+@prefix ns5:	<http://publications.europa.eu/ontology/cdm/cmr#> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.05>	ns5:creationDate	"2018-09-27T10:42:09.455+02:00"^^xsd:dateTime ;
+	ns5:lastModificationDate	"2018-09-27T10:42:09.455+02:00"^^xsd:dateTime .
+@prefix ns6:	<http://publications.europa.eu/resource/authority/file-type/> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.05>	ns1:manifestation_distribution_has_media_type_concept_media_type	ns6:RDF .
+@prefix ns7:	<http://publications.europa.eu/resource/authority/dataset-status/> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.05>	ns1:manifestation_distribution_has_status_distribution_status	ns7:COMPLETED ;
+	ns1:manifestation_distribution_date_modified	"2018-09-14"^^xsd:date .
+@prefix ns8:	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.05/> .
+ns8:DOC_1	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/rdf/skos_ap_act/corporate-body-classification-skos-ap-act.rdf> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.05> ;
+	ns1:item_identifier	"DOC_1" ;
+	ns5:manifestationMimeType	"application/rdf+xml" .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.06>	rdf:type	ns1:manifestation_distribution ;
+	owl:sameAs	ns3:skos_core ;
+	ns1:manifestation_date_publication	"2018-09-26"^^xsd:date ;
+	ns1:manifestation_manifests_expression	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001> ;
+	ns1:manifestation_type	"SKOS_CORE"^^xsd:string ;
+	ns5:creationDate	"2018-09-27T10:42:09.455+02:00"^^xsd:dateTime ;
+	ns5:lastModificationDate	"2018-09-27T10:42:09.455+02:00"^^xsd:dateTime ;
+	ns1:manifestation_distribution_has_media_type_concept_media_type	ns6:RDF ;
+	ns1:manifestation_distribution_has_status_distribution_status	ns7:COMPLETED ;
+	ns1:manifestation_distribution_date_modified	"2018-09-14"^^xsd:date .
+@prefix ns9:	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.06/> .
+ns9:DOC_1	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/rdf/skos_core/corporate-body-classification-skos.rdf> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.06> ;
+	ns1:item_identifier	"DOC_1" ;
+	ns5:manifestationMimeType	"application/rdf+xml" .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.07>	rdf:type	ns1:manifestation_distribution .
+@prefix ns10:	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.07>	owl:sameAs	ns10:cat ;
+	ns1:manifestation_date_publication	"2018-09-26"^^xsd:date ;
+	ns1:manifestation_manifests_expression	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001> ;
+	ns1:manifestation_type	"CAT"^^xsd:string ;
+	ns5:creationDate	"2018-09-27T10:42:09.455+02:00"^^xsd:dateTime ;
+	ns5:lastModificationDate	"2018-09-27T10:42:09.455+02:00"^^xsd:dateTime ;
+	ns1:manifestation_distribution_has_media_type_concept_media_type	ns6:XML ;
+	ns1:manifestation_distribution_has_status_distribution_status	ns7:COMPLETED ;
+	ns1:manifestation_distribution_date_modified	"2018-09-14"^^xsd:date .
+@prefix ns11:	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.07/> .
+ns11:DOC_1	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/cat/corporate-body-classification.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.07> ;
+	ns1:item_identifier	"DOC_1" ;
+	ns5:manifestationMimeType	"application/xml" .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08>	rdf:type	ns1:manifestation_distribution ;
+	owl:sameAs	ns10:atto ;
+	ns1:manifestation_date_publication	"2018-09-26"^^xsd:date ;
+	ns1:manifestation_manifests_expression	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001> ;
+	ns1:manifestation_type	"ATTO"^^xsd:string ;
+	ns5:creationDate	"2018-09-27T10:42:09.456+02:00"^^xsd:dateTime ;
+	ns5:lastModificationDate	"2018-09-27T10:42:09.456+02:00"^^xsd:dateTime ;
+	ns1:manifestation_distribution_has_media_type_concept_media_type	ns6:XML ;
+	ns1:manifestation_distribution_has_status_distribution_status	ns7:COMPLETED ;
+	ns1:manifestation_distribution_date_modified	"2018-09-14"^^xsd:date .
+@prefix ns12:	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08/> .
+ns12:DOC_1	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_BG.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_1" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_10	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_FR.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_10" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_11	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_GA.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_11" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_12	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_HR.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_12" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_13	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_HU.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_13" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_14	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_IT.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_14" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_15	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_LT.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_15" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_16	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_LV.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_16" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_17	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_MT.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_17" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_18	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_NL.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_18" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_19	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_PL.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_19" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_2	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_CS.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_2" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_20	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_PT.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_20" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_21	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_RO.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_21" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_22	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_SK.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_22" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_23	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_SL.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_23" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_24	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_SV.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_24" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_3	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_DA.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_3" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_4	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_DE.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_4" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_5	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_EL.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_5" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_6	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_EN.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_6" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_7	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_ES.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_7" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_8	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_ET.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_8" ;
+	ns5:manifestationMimeType	"application/xml" .
+ns12:DOC_9	rdf:type	ns1:item ;
+	owl:sameAs	<http://publications.europa.eu/resource/distribution/corporate-body-classification/xml/atto/corporate-body-classification_FI.xml> ;
+	ns1:item_belongs_to_manifestation	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001.08> ;
+	ns1:item_identifier	"DOC_9" ;
+	ns5:manifestationMimeType	"application/xml" .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001>	rdf:type	ns1:expression .
+@prefix ns13:	<http://publications.europa.eu/resource/expression/> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001>	owl:sameAs	ns13:corporate-body-classification ;
+	ns5:lang	"lit"^^xsd:language ,
+		"slv"^^xsd:language ,
+		"fr"^^xsd:language ,
+		"est"^^xsd:language ,
+		"bg"^^xsd:language ,
+		"ell"^^xsd:language ,
+		"lv"^^xsd:language ,
+		"hu"^^xsd:language ,
+		"lav"^^xsd:language ,
+		"fin"^^xsd:language ,
+		"sk"^^xsd:language ,
+		"dan"^^xsd:language ,
+		"eng"^^xsd:language ,
+		"mt"^^xsd:language ,
+		"spa"^^xsd:language ,
+		"deu"^^xsd:language ,
+		"hrv"^^xsd:language ,
+		"nld"^^xsd:language ,
+		"pt"^^xsd:language ,
+		"ga"^^xsd:language ,
+		"slk"^^xsd:language ,
+		"bul"^^xsd:language ,
+		"de"^^xsd:language ,
+		"por"^^xsd:language ,
+		"ron"^^xsd:language ,
+		"mlt"^^xsd:language ,
+		"es"^^xsd:language ,
+		"swe"^^xsd:language ,
+		"ita"^^xsd:language ,
+		"el"^^xsd:language ,
+		"pl"^^xsd:language ,
+		"lt"^^xsd:language ,
+		"ces"^^xsd:language ,
+		"fra"^^xsd:language ,
+		"gle"^^xsd:language ,
+		"fi"^^xsd:language ,
+		"et"^^xsd:language ,
+		"en"^^xsd:language ,
+		"da"^^xsd:language ,
+		"hun"^^xsd:language ,
+		"nl"^^xsd:language ,
+		"hr"^^xsd:language ,
+		"sl"^^xsd:language ,
+		"cs"^^xsd:language ,
+		"pol"^^xsd:language ,
+		"ro"^^xsd:language ,
+		"sv"^^xsd:language ,
+		"it"^^xsd:language ;
+	ns1:expression_belongs_to_work	<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1> ;
+	ns1:expression_title	"Corporate body classification"@en .
+@prefix ns14:	<http://publications.europa.eu/resource/authority/language/> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1.0001>	ns1:expression_uses_language	ns14:BUL ,
+		ns14:CES ,
+		ns14:DAN ,
+		ns14:DEU ,
+		ns14:ELL ,
+		ns14:ENG ,
+		ns14:EST ,
+		ns14:FIN ,
+		ns14:FRA ,
+		ns14:GLE ,
+		ns14:HRV ,
+		ns14:HUN ,
+		ns14:ITA ,
+		ns14:LAV ,
+		ns14:LIT ,
+		ns14:MLT ,
+		ns14:NLD ,
+		ns14:POL ,
+		ns14:POR ,
+		ns14:RON ,
+		ns14:SLK ,
+		ns14:SLV ,
+		ns14:SPA ,
+		ns14:SWE ;
+	ns5:creationDate	"2018-09-27T10:42:09.455+02:00"^^xsd:dateTime ;
+	ns5:lastModificationDate	"2018-09-27T10:42:09.455+02:00"^^xsd:dateTime .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1>	rdf:type	ns1:evolutive_work .
+@prefix ns15:	<http://publications.europa.eu/resource/dataset/> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1>	owl:sameAs	ns15:corporate-body-classification ;
+	ns1:datetime_negotiation	ns1:datetime_transmission ;
+	ns1:do_not_index	"true"^^xsd:boolean .
+@prefix ns16:	<http://publications.europa.eu/resource/authority/corporate-body/> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1>	ns1:work_created_by_agent	ns16:PUBL ;
+	ns1:work_date_creation	"2018-09-26"^^xsd:date ;
+	ns1:work_date_document	"2018-09-26"^^xsd:date ;
+	ns1:work_id_document	"http://publications.europa.eu/resource/authority/corporate-body-classification" ;
+	ns1:work_title	"Corporate body classification"@en ;
+	ns5:creationDate	"2018-09-27T10:42:09.454+02:00"^^xsd:dateTime ;
+	ns5:lastModificationDate	"2018-09-27T10:42:09.454+02:00"^^xsd:dateTime ;
+	ns1:datetime_transmission	"2018-09-26T00:01:00"^^xsd:dateTime .
+@prefix ns17:	<http://publications.europa.eu/resource/authority/frequency/> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1>	ns1:work_dataset_has_frequency_publication_frequency	ns17:OTHER .
+@prefix ns18:	<http://publications.europa.eu/resource/authority/dataset-type/> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1>	ns1:work_dataset_has_type_concept_type_dataset	ns18:NAL ;
+	ns1:work_dataset_keyword	"Authority Tables" ,
+		"corporate-body-classification" ,
+		"authority data" ,
+		"controlled vocabulary" ;
+	ns1:work_dataset_version	"20180926-0" ;
+	ns1:work_id	"http://publications.europa.eu/resource/authority/corporate-body-classification" ;
+	ns1:work_dataset_date_start	"1980-01-01"^^xsd:date .
+@prefix ns19:	<http://publications.europa.eu/resource/cellar/> .
+<http://publications.europa.eu/resource/cellar/9ef4f223-e3e8-11e7-9749-01aa75ed71a1>	ns1:work_dataset_has_documentation_documentation	ns19:ed1801a2-c0bf-11e8-9893-01aa75ed71a1 ;
+	ns1:work_published_in_work	ns19:a000183c-c0be-11e8-9893-01aa75ed71a1 ;
+	ns1:work_dataset_published_by_agent	ns16:PUBL ;
+	ns1:work_dataset_description_editorial	"The Corporate body classification NAL provides types of corporate bodies."^^xsd:string ;
+	ns1:work_dataset_date_modified	"2018-09-14"^^xsd:date .

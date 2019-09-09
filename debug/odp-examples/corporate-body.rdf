@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dcatapop="http://data.europa.eu/88u/ontology/dcatapop#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://schema.org/"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/POR">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/ITA">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/file-type/RDF_XML">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/4dae67cf-fb9d-4a15-9d11-2f62ff18f495">
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</dcatapop:numberOfDownloads>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+    <dcat:downloadURL rdf:resource="http://publications.europa.eu/mdr/resource/authority/corporate-body/xml/corporatebodies.xml"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:issued xml:lang="en">2015-05-11 09:19:23.294155</dcterms:issued>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="http://publications.europa.eu/mdr/resource/authority/corporate-body/xml/corporatebodies.xml"/>
+    <dcterms:title xml:lang="en">Corporate bodies NAL XML distribution</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/SLK">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/file-type/XML">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/1c1f053a-e148-4a4d-8cdc-e3ae8c4c5459">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+    <dcterms:issued xml:lang="en">2015-05-11 09:19:23.294122</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcat:accessURL rdf:resource="http://publications.europa.eu/mdr/resource/authority/corporate-body/skos/corporatebodies-skos.rdf"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44</dcatapop:numberOfDownloads>
+    <dcterms:title xml:lang="en">Corporate bodies NAL SKOS distribution</dcterms:title>
+    <dcat:downloadURL rdf:resource="http://publications.europa.eu/mdr/resource/authority/corporate-body/skos/corporatebodies-skos.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/LVA">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/corporate-body">
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HUN"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/LAV"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FRA"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SLK"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/EST"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVK"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/1c1f053a-e148-4a4d-8cdc-e3ae8c4c5459"/>
+    <owl:versionInfo>20150416-0</owl:versionInfo>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/FIN"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/HUN"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/EST"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/POR"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CZE"/>
+    <dcterms:alternative xml:lang="en">Corporate bodies NAL</dcterms:alternative>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/CES"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/NAL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/HRV"/>
+    <dcatapop:datasetGroup rdf:resource="multilingual-assets"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DAN"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/88u/document/e0cf17a2-2141-4b6d-ae8e-de79df265e14"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/FIN"/>
+    <dcat:keyword xml:lang="en">controlled vocabulary</dcat:keyword>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/168e6fc7-37e0-4c99-849d-71aaa04d3330"/>
+    <dcterms:description xml:lang="en">The Corporate bodies name authority list (NAL) or Common Authority Table (CAT) is a controlled vocabulary listing corporate entities such as European institutions and bodies with their authority code and label(s) in the 24 official languages of the EU (when available). The list covers as well subdivisions of the different institutions such as DG's. The Corporate bodies NAL is part of the Core Metadata (CM) used in the data exchange between the institutions involved in the legal decision making process and the Publications Office of the EU. The NAL is under governance of the Interinstitutional Metadata Maintenance Committee (IMMC) and maintained  by the Publications Office of the EU in its Metadata Registry (MDR)</dcterms:description>
+    <dcterms:temporal rdf:resource="http://purl.org/dc/terms/PeriodOfTime/798baac4-e28f-439f-91fb-c2b6bf0b427d"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/RON"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CYP"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/LIT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LTU"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <adms:versionNotes xml:lang="en">See release notes of version 20150416-0</adms:versionNotes>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/HRV"/>
+    <dcterms:identifier>corporate-body</dcterms:identifier>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SLV"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/BUL"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ELL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LVA"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/4dae67cf-fb9d-4a15-9d11-2f62ff18f495"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/AUT"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/LUX"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/PRT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/IRL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/MLT"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GBR"/>
+    <dcatapop:ckanName>corporate-body</dcatapop:ckanName>
+    <dcterms:title xml:lang="en">Corporate bodies Name Authority List</dcterms:title>
+    <dcat:keyword xml:lang="en">authority data</dcat:keyword>
+    <dcterms:publisher rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-27 15:08:29.450526</dcterms:issued>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ROU"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/POL"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/POL"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DEU"/>
+    <dcterms:creator rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-18 11:34:21.532754</dcterms:modified>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/GRC"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/MLT"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SWE"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BGR"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/DNK"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/SVN"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/a8a87c95-3e2d-40fe-902b-27c69018239f"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/NLD"/>
+    <foaf:page rdf:resource="http://data.europa.eu/88u/document/b4c4a2eb-c821-427e-a641-886bb3015a47"/>
+    <dcat:contactPoint rdf:resource="http://www.w3.org/2006/vcard/ns#Kind/aec2e8e0-65b6-4de9-a6a6-a159e6e89352"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/168e6fc7-37e0-4c99-849d-71aaa04d3330">
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <dcterms:issued xml:lang="en">2015-05-11 09:19:23.294145</dcterms:issued>
+    <dcatapop:numberOfDownloads rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50</dcatapop:numberOfDownloads>
+    <dcterms:license rdf:resource="http://publications.europa.eu/resource/authority/licence/COM_REUSE"/>
+    <dcterms:title xml:lang="en">Corporate bodies NAL HTML distribution</dcterms:title>
+    <dcat:accessURL rdf:resource="http://publications.europa.eu/mdr/resource/authority/corporate-body/html/corporatebodies-eng.html"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+    <dcat:downloadURL rdf:resource="http://publications.europa.eu/mdr/resource/authority/corporate-body/html/corporatebodies-eng.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/EST">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/frequency/OTHER">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Frequency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/ENG">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/DEU">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/86997be5-e3fb-41ed-8069-e976d2927c63">
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://publications.europa.eu/mdr/contact.jsp</schema:url>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <dcterms:title xml:lang="en">title_default_values</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/ITA">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/MLT">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/b4c4a2eb-c821-427e-a641-886bb3015a47">
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/corporate-body"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+    <schema:url xml:lang="en">http://publications.europa.eu/mdr/authority/corporate-body/documentation.html</schema:url>
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/DOCUMENTATION_MAIN"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Corporate bodies NAL documentation</dcterms:title>
+    <dcterms:description xml:lang="en">documentation.html</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Address/c964fd4a-bab6-4eea-bceb-9f5cae8787af">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <vcard:street-address>Publications Office of the EU; Core Business Services directorate; Enterprise Architecture, Methods and Formats unit; Formats, Linguistic Informatics and Metadata section; 2, rue Mercier; L-2985 Luxembourg</vcard:street-address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/ROU">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/NLD">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/CYP">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/RON">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/HUN">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/GBR">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/e0cf17a2-2141-4b6d-ae8e-de79df265e14">
+    <dcterms:title xml:lang="en">title_http://publications.europa.eu/resource/authority/corporate-body/</dcterms:title>
+    <foaf:topic rdf:resource="default_topic_foaf"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <schema:url>http://publications.europa.eu/resource/authority/corporate-body/</schema:url>
+    <dcterms:type rdf:resource="default_type_dcterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/BGR">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime/798baac4-e28f-439f-91fb-c2b6bf0b427d">
+    <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01T00:00:00</schema:endDate>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1950-01-01T00:00:00</schema:startDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/document/a8a87c95-3e2d-40fe-902b-27c69018239f">
+    <dcterms:type rdf:resource="http://publications.europa.eu/resource/authority/documentation-type/WEBPAGE_RELATED"/>
+    <dcterms:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ARC"/>
+    <foaf:topic rdf:resource="http://data.europa.eu/88u/dataset/corporate-body"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title xml:lang="en">Corporate bodies NAL main page</dcterms:title>
+    <schema:url xml:lang="en">http://publications.europa.eu/mdr/authority/corporate-body</schema:url>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/PUBL">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/LAV">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/SVN">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="multilingual-assets">
+    <rdf:type rdf:resource="http://data.europa.eu/88u/ontology/dcatapop#DatasetGroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Kind/aec2e8e0-65b6-4de9-a6a6-a159e6e89352">
+    <vcard:hasAddress rdf:resource="http://www.w3.org/2006/vcard/ns#Address/c964fd4a-bab6-4eea-bceb-9f5cae8787af"/>
+    <foaf:homePage rdf:resource="http://data.europa.eu/88u/document/86997be5-e3fb-41ed-8069-e976d2927c63"/>
+    <vcard:hasTelephone rdf:resource="http://www.w3.org/2006/vcard/ns#Voice/7905174f-cd51-4087-9022-1c61a236f3f2"/>
+    <vcard:hasEmail rdf:resource="OP-MDR-HELPDESK@publications.europa.eu"/>
+    <vcard:organisation-name>Publications Office of the European Union</vcard:organisation-name>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/SWE">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/HUN">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/record/e0b0cc74-2ecb-4f54-8188-5670dc20c872">
+    <dcatapop:numberOfViews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1627</dcatapop:numberOfViews>
+    <foaf:primaryTopic rdf:resource="http://data.europa.eu/88u/dataset/corporate-body"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2019-05-16T11:16:21</dcterms:modified>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-27 15:08:29.450526</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/ELL">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/SWE">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/GRC">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/FIN">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/FRA">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/file-type/HTML">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Voice/7905174f-cd51-4087-9022-1c61a236f3f2">
+    <vcard:hasValue rdf:resource="+352292942001"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/POL">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/CES">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/POL">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/HRV">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/LIT">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/HRV">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/PRT">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/SVK">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/FIN">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/IRL">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/DAN">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/LUX">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/DNK">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/NLD">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/DEU">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/AUT">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/BUL">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/MLT">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/LTU">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/SLV">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/FRA">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/SPA">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/BEL">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/file-type/ARC">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/COM_REUSE">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/EST">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/ESP">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/country/CZE">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Location"/>
+  </rdf:Description>
+</rdf:RDF>

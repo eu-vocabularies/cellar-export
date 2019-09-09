@@ -2,6 +2,8 @@
 
 # For evolutive (version independent work)
 
+Get the current description of the evolutoive_work for work _?workPublicId_  
+
 ```sparql
 PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
 PREFIX lg: <http://publications.europa.eu/resource/authority/language/>
@@ -12,22 +14,32 @@ PREFIX ev: <http://eurovoc.europa.eu/>
 PREFIX euvoc: <http://publications.europa.eu/ontology/euvoc#>
 PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
 prefix dstype: <http://publications.europa.eu/resource/authority/dataset-type/>
-SELECT DISTINCT *
+
+CONSTRUCT
+{
+	?workCellarId ?wp ?wo .
+	?expressionCellarId ?ep ?eo .
+	?manifestationCellarId ?mp ?mo .
+	?itemCellarId ?ip ?io .
+}
 WHERE {
-    values (?workPublicId ) { (<http://publications.europa.eu/resource/dataset/corporate-body> ) }
+    values (?workPublicId ) { (<http://publications.europa.eu/resource/dataset/corporate-body-classification> ) }
     ?workCellarId owl:sameAs ?workPublicId . 
     ?expressionCellarId cdm:expression_belongs_to_work ?workCellarId .
-    ?expressionCellarId owl:sameAs ?expressionPublicId .
+    #?expressionCellarId owl:sameAs ?expressionPublicId .
     ?manifestationCellarId cdm:manifestation_manifests_expression ?expressionCellarId .
-    ?manifestationCellarId owl:sameAs ?manifestationPublicId .
+    #?manifestationCellarId owl:sameAs ?manifestationPublicId .
     ?itemCellarId cdm:item_belongs_to_manifestation ?manifestationCellarId .
-    ?itemCellarId owl:sameAs ?itemPublicId .
+    #?itemCellarId owl:sameAs ?itemPublicId .
+
+	# get now the triples at each level     
+	?workCellarId ?wp ?wo .
+	?expressionCellarId ?ep ?eo .
+	?manifestationCellarId ?mp ?mo .
+	?itemCellarId ?ip ?io .
+    
 }
 ```
- 
-
-
-
 
 # ?workCellarId properties
 
